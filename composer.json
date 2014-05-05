@@ -1,0 +1,27 @@
+{
+    "name" : "stephencoe/sitemap-generation",
+    "description" : "Module description",
+    "type" : "module",
+    "license" : "BSD-3-Clause",
+    "homepage" : "https://github.com/stephencoe/sitemap-generation",
+    "keywords" : [
+        "zf2",
+        "module"
+    ],
+    "minimum-stability" : "dev",
+    "require" : {
+        "php" : ">=5.3.3",
+        "zendframework/zendframework" : "2.*"
+    },
+    "require-dev": {
+        "zendframework/zend-developer-tools": "dev-master",
+        "zendframework/zftool": "dev-master",
+        "ccampbell/chromephp": "dev-master",
+        "phpunit/phpunit" : "*"
+    },
+    "autoload" : {
+        "psr-0" : {
+            "Sitemap\\" : "src/"
+        }
+    }
+}

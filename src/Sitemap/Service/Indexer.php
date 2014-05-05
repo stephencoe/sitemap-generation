@@ -1,0 +1,1 @@
+// when an entity is updated, this will update the db and then re-create the sitemap
